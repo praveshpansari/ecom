@@ -1,0 +1,137 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 1.25rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.login-box {
+  width: 100%;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 640px) {
+  .login-box {
+    max-width: 30rem;
+  }
+}
+
+.login-header {
+  padding: 1rem 1.5rem;
+  font-weight: 600;
+}
+
+.login-error {
+  color: red;
+  font-weight: 500;
+  font-size: small;
+  float: left;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.email-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.email-input {
+  background-color: aliceblue;
+  border: 1px solid gray;
+  border-radius: 0.25rem;
+  display: block;
+  width: 100%;
+  font-family: Inter;
+  padding: 0.625rem;
+}
+
+.checkbox {
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid gray;
+  border-radius: 0.25rem;
+  background-color: aliceblue;
+  display: inline;
+  cursor: pointer;
+}
+
+.remember-section {
+  display: flex;
+  align-items: center;
+}
+
+.remember-label {
+  cursor: pointer;
+  margin-left: 0.25rem;
+  font-size: smaller;
+  font-weight: 600;
+  display: inline;
+}
+
+.login-form-submit {
+  /* relative bg-primary-600 text-white font-medium text-sm text-center px-5 rounded-lg w-full hover:bg-primary-700 h-11 py-2.5 */
+  position: relative;
+  background-color: aliceblue;
+  font-weight: 500;
+  font-size: small;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  height: 2.5rem;
+  font-family: Inter;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loader {
+  /* absolute top-0 bottom-0 right-0 left-0 w-8 h-8 bg-transparent m-auto border-[3px] border-primary-100 rounded-[50%] border-t-primary-700 animate-spin */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: transparent;
+  margin: auto;
+  border: 3px solid white;
+  border-radius: 50%;
+  border-top-color: blue;
+  animation: spin 1s linear infinite;
+}
+
+.password-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .password-section{
+    flex-direction: row;
+    row-gap: 0;
+    justify-content: space-between;
+  }
+}

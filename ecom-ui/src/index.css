@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap");
+
+body {
+  margin: 2rem 2rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffe6e6;
+}
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {...} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body{
+    margin: 2rem 2rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body{
+    margin: 2rem 10rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  body{
+    margin: 2rem 20rem;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

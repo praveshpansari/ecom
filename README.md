@@ -26,7 +26,9 @@ Uses docker to run two images: api & db. Some dummy data is inserted in the db d
 ## Usage
 - The app will run on `http://localhost:3000`
 - Go to login and register a new user
-- Add some products to cart
+- User the search bar to search for products
+- Use the filters to filter by name or price
+- Add some products to cart, added products have an indicator
 - Go to cart page to view your added products
 - Can modify and delete products from cart
 

@@ -5,7 +5,7 @@ Clone the repo
 1. API
 Uses docker to run two images: api & db. Some dummy data is inserted in the db during this process.
  - open a new terminal and cd into ecom
- - create a .env file like this <br><br>
+ - create a .env file inside `ecom-api` folder with input <br><br>
    ![image](https://user-images.githubusercontent.com/25385289/200906958-f5fd79e0-f951-4079-aa85-d8fd87569a3d.png)
  - run `docker compose build` <br><br>
    ![image](https://user-images.githubusercontent.com/25385289/200905056-594694c8-9971-42a5-8c5b-aad190802131.png)
